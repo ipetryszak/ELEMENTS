@@ -2,10 +2,37 @@
 <html>
 <head>
     <title>Segmented control</title>
-    <link href="style.scss" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <!--
+
+    <div class="control">
+        <button type="button" class="control__element number-1">
+            Sort by price
+        </button>
+        <button type="button" class="control__element number-2">
+            Sort by name
+        </button>
+        <button type="button" class="control__element number-3">
+            Sort by relevance
+        </button>
+    </div>
+    <select name="control-select" class="control-select ">
+        <option value="control-select__element"
+                class="control-select__element option-number-1">
+            Sort by price
+        </option>
+        <option value="control-select__element"
+                class="control-select__element option-number-2">
+            Sort by name
+        </option>
+        <option value="control-select__element"
+                class="control-select__element option-number-3">
+            Sort by relevance
+        </option>
+    </select>
+
+        <!--
         Create a segmented control that turns into a <select> for mobile screens.
         They should sync whenever any of them is changed.
     -->

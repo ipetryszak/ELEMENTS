@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+$color-primary: #007cc7;
+$color-secondary: #203647;
+$color-white: #EEFBFB;
+
+@mixin position {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: inherit;
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 2rem;
+  font-family: 'Rubik', sans-serif;
+  background: rgb(253, 252, 255);
+}
+
+.control {
+  @include position();
+  display: flex;
+  width: fit-content;
+  outline: none;
+
+  &__element {
+    padding: 1rem 2rem;
+    flex-basis: content;
+    background: white;
+    border: 0.2rem $color-primary solid;
+    outline: none;
+
+    &:first-child {
+      border-radius: .5rem 0 0 .5rem;
+    }
+    &:last-child {
+      border-radius: 0 .5rem .5rem 0;
+    }
+    &:not(:last-child) {
+      border-right: none;
+    }
+    &--hover {
+      transition: background 0.7s ease;
+      background: $color-secondary;
+      color: $color-white;
+      cursor: pointer;
+    }
+    &--active {
+      transition: background 0.2s ease;
+      background: $color-primary;
+      color: white;
+      box-shadow: 0 0 0 2px $color-secondary;
+      z-index: 1;
+    }
+  }
+}
+select[name="control-select"] {
+  display: none;
+  @include position();
+  font-size: 1rem;
+  padding: 0.5rem 20rem 0.5rem 1rem;
+  border: 0.2rem $color-primary solid;
+  border-radius: 0.5rem;
+  outline: none;
+}
+
+option[value="control-select__element"] {
+  border: 0.2rem $color-primary solid;
+  border-radius: 2rem;
+}
+@media screen and (max-width: 800px){
+  .control {
+    display: none;
+  }
+  select[name="control-select"] {
+    display: block;
+  }
+}
+

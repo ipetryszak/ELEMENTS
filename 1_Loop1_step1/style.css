@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: inherit;
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 2rem;
+  font-family: "Rubik", sans-serif;
+  background: #fdfcff;
+}
+
+.control {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  width: fit-content;
+  outline: none;
+}
+.control__element {
+  padding: 1rem 2rem;
+  flex-basis: content;
+  background: white;
+  border: 0.2rem #007cc7 solid;
+  outline: none;
+}
+.control__element:first-child {
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+.control__element:last-child {
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+.control__element:not(:last-child) {
+  border-right: none;
+}
+.control__element--hover {
+  transition: background 0.7s ease;
+  background: #203647;
+  color: #EEFBFB;
+  cursor: pointer;
+}
+.control__element--active {
+  transition: background 0.2s ease;
+  background: #007cc7;
+  color: white;
+  box-shadow: 0 0 0 2px #203647;
+  z-index: 1;
+}
+
+select[name=control-select] {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1rem;
+  padding: 0.5rem 20rem 0.5rem 1rem;
+  border: 0.2rem #007cc7 solid;
+  border-radius: 0.5rem;
+  outline: none;
+}
+
+option[value=control-select__element] {
+  border: 0.2rem #007cc7 solid;
+  border-radius: 2rem;
+}
+
+@media screen and (max-width: 800px) {
+  .control {
+    display: none;
+  }
+
+  select[name=control-select] {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
