@@ -8,6 +8,7 @@ changeButton.addEventListener('click',textButtonHandler);
 buttonsNoFrame.forEach(btn => btn.addEventListener('click',noFrameButtonHandler));
 
 function textButtonHandler(event) {
+    event.preventDefault();
     const textElement = document.querySelector('.tab__text');
     const number = textElement.value - 1;
     textElement.value = '';
