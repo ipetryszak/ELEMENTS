@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec5dbeba-249d-4ccb-98b7-03b5d83ca7d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2_Loop1_step2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2_Loop1_step2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="ec5dbeba-249d-4ccb-98b7-03b5d83ca7d5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,6 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603300617475</updated>
       <workItem from="1603300618568" duration="2976000" />
+      <workItem from="1603313252847" duration="21000" />
     </task>
     <servers />
   </component>
@@ -86,12 +82,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="438" y="210" key="EditFileWatcherDialog" timestamp="1603300913326">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="438" y="210" key="EditFileWatcherDialog/0.0.1536.864@0.0.1536.864" timestamp="1603300913326" />
+    <state x="549" y="173" key="FileChooserDialogImpl" timestamp="1603313269373">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="173" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1603313269373" />
     <state width="1515" height="277" key="GridCell.Tab.0.bottom" timestamp="1603303596847">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

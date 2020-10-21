@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+    <title>Progress navigation</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <!--
+        Create a progress navigation with previous/next buttons on each step and an overview of all steps.
+        Clicking next button on last step should bring the final screen
+        Steps in overview should be also clickable and change current step to the one click,
+        however you shouldn't be able to skip the next step, so if you're at 1 step - you can't go directly to 3.
+    -->
+    <div class="wrapper">
+        <div class="navigation">
+            <div class="navigation__progress">
+                <div class="navigation__option navigation__option--active">
+                    <p><span class="navigation__number navigation__number--active">1</span> Choose title</p>
+                </div>
+                <div class="navigation__option">
+                    <p><span class="navigation__number">2</span> Choose description</p>
+                </div>
+                <div class="navigation__option">
+                    <p><span class="navigation__number">3</span> Confirm data</p>
+                </div>
+
+            </div>
+            <div class="navigation__content">
+                    <div class="navigation__text">
+                        <p>Choose title content</p>
+                    </div>
+                    <div class="navigation__buttons">
+                        <button class="button">Submit title</button>
+                    </div>
+            </div>
+
+        </div>
+    </div>
+
+
+<script src="script.js"></script>
+</body>
+</html>

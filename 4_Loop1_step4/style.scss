@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap");
+
+$color-primary: #9b59b6;
+$color-secondary: #f5f6fa;
+$color-ternary: #7f8fa6;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  background: rgba($color-primary,1.5);
+  font-size: 1.6rem;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.navigation {
+  background: $color-secondary;
+  width: 60rem;
+  height: 15rem;
+  border-radius: 0.4rem;
+  display: flex;
+
+  &__progress {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    margin:  2rem 2rem;
+  }
+  &__option {
+    flex: 1;
+    position: relative;
+  }
+
+  &__option{
+    color: rgba($color-ternary,0.9);
+  }
+  &__option--active {
+    color: black;
+  }
+  &__number {
+    background: rgba($color-ternary,0.3);
+    display: inline-block;
+    height: 2.25rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 0.5rem;
+  }
+  &__number--active {
+    color: $color-secondary;
+    background: #40739e;
+  }
+
+  &__content {
+   // border: magenta 1px solid;
+    width: 65%;
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-evenly;
+  }
+}
+
+button {
+    outline: none;
+    padding: 1rem 1.5rem;
+    border: none;
+    font-family: inherit;
+    font-weight: inherit;
+    cursor: pointer;
+}
+
