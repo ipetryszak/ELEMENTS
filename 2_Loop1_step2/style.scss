@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap');
+
+$color-primary: #0984e3;
+$color-secondary: #b2bec3;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: 'Quicksand', sans-serif;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  background: $color-primary;
+}
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.tab {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  width: 40rem;
+  height: 16rem;
+  border-radius: 1rem;
+
+  &__text-button-area {
+    display: flex;
+    margin: 2rem 1rem 1rem 3rem;
+  }
+
+  &__text-input {
+    flex: 2;
+  }
+
+  &__change-tab {
+    flex: 1;
+  }
+
+  &__text {
+    outline: none;
+    border: none;
+    border-bottom: $color-secondary solid 2px;
+    padding: 1rem 0;
+    width: 90%;
+
+    &::placeholder {
+      font-size: 1.4rem;
+    }
+    &:focus {
+      border-bottom: black solid 2px;
+      transition: border-bottom-color .2s;
+    }
+  }
+
+  &__buttons-area {
+    display: flex;
+    margin: 0 2.5rem;
+  }
+
+  &__button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: rgba($color-secondary,0.5);
+    padding: 1rem 1.5rem;
+    margin: 0.2rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+    border-radius: 0.2rem;
+
+    &:hover {
+      background: rgba($color-secondary,0.9);
+      transition: all 0.2s ease-out;
+    }
+
+
+    &--no-frame {
+      text-transform: uppercase;
+      background-color: white;
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: $color-secondary;
+      padding: 1rem .5rem;
+
+      &:hover {
+        background: none;
+        transition: color 0.2s ease-out;
+        color: black;
+      }
+
+      &--active {
+        color: black;
+      }
+    }
+  }
+  &__content {
+    margin: 1rem 3rem;
+  }
+  &__text-display {
+    font-size: 1.5rem;
+  }
+}

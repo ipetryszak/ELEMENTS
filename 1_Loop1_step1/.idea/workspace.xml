@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7056c7c1-d4ba-4cab-a40a-d56ababb4ef4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
-    </list>
+    <list default="true" id="7056c7c1-d4ba-4cab-a40a-d56ababb4ef4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,6 +66,7 @@
       <updated>1603111649101</updated>
       <workItem from="1603111654294" duration="12813000" />
       <workItem from="1603181559429" duration="7565000" />
+      <workItem from="1603219844528" duration="31000" />
     </task>
     <servers />
   </component>
@@ -87,12 +83,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="438" y="210" key="EditFileWatcherDialog" timestamp="1603111695091">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="438" y="210" key="EditFileWatcherDialog/0.0.1536.864@0.0.1536.864" timestamp="1603111695091" />
+    <state x="549" y="173" key="FileChooserDialogImpl" timestamp="1603219869200">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="173" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1603219869200" />
     <state width="1515" height="2" key="GridCell.Tab.0.bottom" timestamp="1603190143150">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
