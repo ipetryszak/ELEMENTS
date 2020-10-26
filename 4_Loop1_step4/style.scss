@@ -49,10 +49,16 @@ body {
     position: relative;
   }
 
-  &__option{
+  &__link {
+    text-decoration: none;
     color: rgba($color-ternary,0.9);
   }
-  &__option--active {
+  &__link:hover,
+  &__link:active {
+    transition: color 0.5s;
+    color: black;
+  }
+  &__link--active {
     color: black;
   }
   &__number {
@@ -67,25 +73,33 @@ body {
   &__number--active {
     color: $color-secondary;
     background: #40739e;
+    transition: all 0.5s ease-out;
   }
 
   &__content {
-   // border: magenta 1px solid;
     width: 65%;
     margin-left: 4rem;
     display: flex;
     flex-direction: column;
-    align-items: left;
     justify-content: space-evenly;
   }
 }
 
-button {
+.button {
+  display: inline-block;
     outline: none;
+    background: rgba($color-ternary,0.6);
     padding: 1rem 1.5rem;
     border: none;
     font-family: inherit;
     font-weight: inherit;
     cursor: pointer;
+
+    &__right {
+      display: none;
+    }
+}
+button:hover {
+  background: rgba($color-ternary,0.8);
 }
 
