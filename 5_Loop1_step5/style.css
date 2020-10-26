@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap");
+.text {
+  font-family: "Syne Tactile", cursive;
+  font-size: 2rem;
+  display: inline-block;
+}
+.text__cursor {
+  font-family: "Syne Tactile", cursive;
+  font-size: 2rem;
+  display: inline;
+}
+.text__cursor--blink {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
