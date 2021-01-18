@@ -1,0 +1,13 @@
+body {
+  box-sizing: border-box;
+  transition: all 1s;
+}
+
+.container {
+  margin: 1rem auto;
+  height: 300px;
+  width: 70%;
+  background: #f3f3f3;
+}
+
+/*# sourceMappingURL=style.css.map */
