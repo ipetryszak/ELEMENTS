@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff0bb854-8c4a-4629-8a83-303dc1aaa3ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4_Loop1_step4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../4_Loop1_step4/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ff0bb854-8c4a-4629-8a83-303dc1aaa3ee" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,6 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603735355463</updated>
       <workItem from="1603735357006" duration="3571000" />
+      <workItem from="1603826081220" duration="128000" />
     </task>
     <servers />
   </component>
@@ -85,12 +82,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="438" y="210" key="EditFileWatcherDialog" timestamp="1603735491022">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="438" y="210" key="EditFileWatcherDialog/0.0.1536.864@0.0.1536.864" timestamp="1603735491022" />
+    <state x="549" y="173" key="FileChooserDialogImpl" timestamp="1603826206135">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="173" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1603826206135" />
     <state width="1515" height="129" key="GridCell.Tab.0.bottom" timestamp="1603738930845">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

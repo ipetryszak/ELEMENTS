@@ -1,0 +1,15 @@
+$color-accent: #F0131E;
+
+body {
+  box-sizing: border-box;
+  background: #2C2A89;
+}
+
+.modal-box {
+  background: #fff;
+  height: 500px;
+  width: 400px;
+  border: 1px $color-accent solid;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 10px lighten($color-accent, 0.5);
+}

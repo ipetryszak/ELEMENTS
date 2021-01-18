@@ -1,0 +1,15 @@
+body {
+  box-sizing: border-box;
+  background: #2C2A89;
+}
+
+.modal-box {
+  background: #fff;
+  height: 500px;
+  width: 400px;
+  border: 1px #F0131E solid;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 10px #f01520;
+}
+
+/*# sourceMappingURL=style.css.map */
