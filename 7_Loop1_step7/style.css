@@ -4,10 +4,22 @@ body {
 }
 
 .container {
-  margin: 1rem auto;
-  height: 300px;
   width: 70%;
-  background: #f3f3f3;
+  margin: 0 auto;
+}
+
+.block {
+  background: grey;
+  height: 350px;
+  margin: 2rem;
+  visibility: hidden;
+  transition: all 0.5s;
+  opacity: 0;
+}
+
+.block--visible {
+  visibility: visible;
+  opacity: 1;
 }
 
 /*# sourceMappingURL=style.css.map */

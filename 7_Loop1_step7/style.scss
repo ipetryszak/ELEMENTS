@@ -4,8 +4,22 @@ body {
 }
 
 .container {
-  margin: 1rem auto;
-  height: 300px;
   width: 70%;
-  background: lighten(grey,45%);
+  margin: 0 auto;
 }
+
+.block {
+  background: grey;
+  height: 350px;
+  margin: 2rem;
+  visibility: hidden;
+  transition: all .5s;
+  opacity: 0;
+}
+
+.block--visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+
